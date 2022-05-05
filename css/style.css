@@ -1,0 +1,61 @@
+body {
+height: 100vh;
+	background: linear-gradient(
+		to right,
+		/* background */
+		#f2d497 0%,
+		#f2d497 10%,
+		/* shadows */
+		#d8b674 10%,
+		#d8b674 12%,
+		/* pillars */
+		#f0ce89 12%,
+		#f0ce89 20%,
+		
+		#f2d497 20%,
+		#f2d497 80%,
+		
+		#f0ce89 80%,
+		#f0ce89 88%,
+		
+		#d8b674 88%,
+		#d8b674 90%,
+		
+		#f2d497 90%,
+		#f2d497 100%
+	);
+}
+
+.margin {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+img {
+	border-style: solid;
+	border-color: #ddb564;
+}
+.zoom {
+	zoom: 1.2;
+}
+
+h1 {
+	
+}
+
+h3 {
+	
+}
+
+h4 {
+	
+}
+
+h5 {
+	
+}
+
+h6{
+	
+}
