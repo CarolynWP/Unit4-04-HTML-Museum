@@ -44,16 +44,16 @@
 			<div class="zoom">
 <form action="#">
   <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" step="1" min="0" max="120" id="age">
+    <input class="mdl-textfield__input" type="number" step="1" min="0" max="120" id="age">
     <label class="mdl-textfield__label" for="age">Age</label>
     <span class="mdl-textfield__error">This is not a valid age!</span>
   </div>
 </form>
 			
 			<!-- drop-down menu for days of the week -->
-			<form action="/action_page.php">
+			<form action="javascript:museumDiscount()">
   <label for="cars"><h5>Day of the week</h5></label>
-  <select name="day" id="day">
+  <select name="select" id="select">
     <option value="mon">Monday</option>
     <option value="tue">Tuesday</option>
     <option value="wed">Wednesday</option>
@@ -65,12 +65,13 @@
 			</form>
 				<br>
 				<br>
+				
 				<!-- Button to submit answers -->
-<button onclick="museumDiscount()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-  Submit
-</button>
+				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="museumDiscount()"> Submit </button>
 				
 				<h6><div id="answer"></div></h6>
+				<br>
+				<br>
 			</div>
 		</div>
 	</body>
